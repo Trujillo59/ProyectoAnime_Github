@@ -2,7 +2,7 @@
 <Biblioteca.Anime xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="Proyecto Anime_XSD.xsd">
 
-    <Anime>
+    <Anime1>
         <Titulo></Titulo>
         <Autor></Autor>
         <Genero></Genero>
@@ -12,7 +12,7 @@
             <Capítulos></Capítulos>
         </Duracion>
         <Descripcion></Descripcion>
-    </Anime>
+    </Anime1>
 
     <Anime>
         <Titulo></Titulo>
