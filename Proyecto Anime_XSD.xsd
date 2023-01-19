@@ -13,8 +13,8 @@
                         <xs:element name="Duracion">
                             <xs:complexType>
                                 <xs:sequence>
-                                    <xs:element name="Temporadas"></xs:element>
-                                    <xs:element name="Capitulos"></xs:element>
+                                    <xs:element name="Temporadas" type="xs:string"/>
+                                    <xs:element name="Capitulos" type="xs:string"/>
                                 </xs:sequence>
                             </xs:complexType>
                         </xs:element>
@@ -33,8 +33,8 @@
                         <xs:element name="Duracion">
                             <xs:complexType>
                                 <xs:sequence>
-                                    <xs:element name="Temporadas"></xs:element>
-                                    <xs:element name="Capitulos"></xs:element>
+                                    <xs:element name="Temporadas" type="xs:string"/>
+                                    <xs:element name="Capitulos" type="xs:string"/>
                                 </xs:sequence>
                             </xs:complexType>
                         </xs:element>
@@ -53,8 +53,8 @@
                         <xs:element name="Duracion">
                             <xs:complexType>
                                 <xs:sequence>
-                                    <xs:element name="Temporadas"></xs:element>
-                                    <xs:element name="Capitulos"></xs:element>
+                                    <xs:element name="Temporadas" type="xs:string"/>
+                                    <xs:element name="Capitulos" type="xs:string"/>
                                 </xs:sequence>
                             </xs:complexType>
                         </xs:element>
@@ -73,8 +73,8 @@
                         <xs:element name="Duracion">
                             <xs:complexType>
                                 <xs:sequence>
-                                    <xs:element name="Temporadas"></xs:element>
-                                    <xs:element name="Capitulos"></xs:element>
+                                    <xs:element name="Temporadas" type="xs:string"/>
+                                    <xs:element name="Capitulos" type="xs:string"/>
                                 </xs:sequence>
                             </xs:complexType>
                         </xs:element>
@@ -93,8 +93,8 @@
                         <xs:element name="Duracion">
                             <xs:complexType>
                                 <xs:sequence>
-                                    <xs:element name="Temporadas"></xs:element>
-                                    <xs:element name="Capitulos"></xs:element>
+                                    <xs:element name="Temporadas" type="xs:string"/>
+                                    <xs:element name="Capitulos" type="xs:string"/>
                                 </xs:sequence>
                             </xs:complexType>
                         </xs:element>
