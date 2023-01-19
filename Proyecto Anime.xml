@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Biblioteca.Anime xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="Proyecto Anime_XSD.xsd">
+
+    <Anime>
+        <Titulo></Titulo>
+        <Autor></Autor>
+        <Genero></Genero>
+        <Fecha.de.Lanzamiento></Fecha.de.Lanzamiento>
+        <Duracion>
+            <Temporadas></Temporadas>
+            <Capítulos></Capítulos>
+        </Duracion>
+        <Descripcion></Descripcion>
+    </Anime>
+
+    <Anime>
+        <Titulo></Titulo>
+        <Autor></Autor>
+        <Genero></Genero>
+        <Fecha.de.Lanzamiento></Fecha.de.Lanzamiento>
+        <Duracion>
+            <Temporadas></Temporadas>
+            <Capítulos></Capítulos>
+        </Duracion>
+        <Descripcion></Descripcion>
+    </Anime>
+
+    <Anime>
+        <Titulo></Titulo>
+        <Autor></Autor>
+        <Genero></Genero>
+        <Fecha.de.Lanzamiento></Fecha.de.Lanzamiento>
+        <Duracion>
+            <Temporadas></Temporadas>
+            <Capítulos></Capítulos>
+        </Duracion>
+        <Descripcion></Descripcion>
+    </Anime>
+
+    <Anime>
+        <Titulo></Titulo>
+        <Autor></Autor>
+        <Genero></Genero>
+        <Fecha.de.Lanzamiento></Fecha.de.Lanzamiento>
+        <Duracion>
+            <Temporadas></Temporadas>
+            <Capítulos></Capítulos>
+        </Duracion>
+        <Descripcion></Descripcion>
+    </Anime>
+
+    <Anime>
+        <Titulo></Titulo>
+        <Autor></Autor>
+        <Genero></Genero>
+        <Fecha.de.Lanzamiento></Fecha.de.Lanzamiento>
+        <Duracion>
+            <Temporadas></Temporadas>
+            <Capítulos></Capítulos>
+        </Duracion>
+        <Descripcion></Descripcion>
+    </Anime>
+    
+</Biblioteca.Anime>
