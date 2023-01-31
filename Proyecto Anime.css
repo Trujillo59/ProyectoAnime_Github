@@ -1,6 +1,28 @@
+
+
+.barra {
+    height: 100%;
+    width: 350px;
+    background-color: rgb(17, 77, 145);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+  }
+  .LINEA {
+    height: 100%;
+    width: 350px;
+    background-color: rgb(17, 77, 145);
+    position: fixed;
+    top: 0;
+    right: 0;
+  }
+
+
 .contenedor{
+
     margin: auto;
-    width: 700px; 
+    width: 780px; 
     padding: 50px;
     font-family: 'Avenir', sans-serif; 
     color: #33475b;    
