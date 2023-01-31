@@ -1,0 +1,22 @@
+.contenedor{
+    margin: auto;
+    width: 700px; 
+    padding: 50px;
+    font-family: 'Avenir', sans-serif; 
+    color: #33475b;    
+            }
+
+
+.texto-encima{
+    position: absolute;
+    top: 640px;
+    left: 50px;
+}
+.centrado{
+    position: absolute;
+    top: 13%;
+    left: 55%;
+    transform: translate(-50%, -50%);
+}
+
+h1{color: rgb(255, 248, 248);}
