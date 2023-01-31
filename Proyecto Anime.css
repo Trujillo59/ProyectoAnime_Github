@@ -1,9 +1,7 @@
-
-
 .barra {
     height: 100%;
     width: 350px;
-    background-color: rgb(20, 54, 94);
+    background-color: rgb(0, 0, 0);
     position: fixed;
     top: 0;
     left: 0;
@@ -12,7 +10,7 @@
   .LINEA {
     height: 100%;
     width: 350px;
-    background-color: rgb(20, 54, 94);
+    background-color: rgb(0, 0, 0);
     position: fixed;
     top: 0;
     right: 0;
@@ -22,7 +20,7 @@
 .contenedor{
 
     margin: auto;
-    width: 780px; 
+    width: 940px; 
     padding: 50px;
     font-family: 'Avenir', sans-serif; 
     color: #33475b;    
@@ -36,9 +34,60 @@
 }
 .centrado{
     position: absolute;
-    top: 13%;
-    left: 55%;
+    top: 15%;
+    left: 50%;
     transform: translate(-50%, -50%);
 }
 
 h1{color: rgb(255, 248, 248);}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header{
+ background-color: #F9F8FC;
+}
+
+#logo{
+ margin: auto;
+ height: 250px;
+ width: 320px;
+ text-align: center;
+}
+
+#logo h1{
+  font-family: 'Pacifico', cursive;
+  font-size: 58px;
+}
+
+nav{
+height: 60px;
+background-color:#000000;
+text-align: center;
+}
+
+nav ul{
+ list-style: none;
+ display: inline-block;
+ padding:18px;
+}
+
+nav ul li{
+  float: left;
+  margin-top: 20px;
+}
+
+nav ul li a {
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 20px;
+  padding: 18px;
+}
+
+nav ul li a:hover{
+background-color: #929fb3;
+}
