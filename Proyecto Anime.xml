@@ -3,7 +3,7 @@
     xsi:noNamespaceSchemaLocation="Proyecto Anime_XSD.xsd">
 
     <Anime1>
-        <Titulo></Titulo>
+        <Titulo>One Peace</Titulo>
         <Autor></Autor>
         <Genero></Genero>
         <Fecha.de.Lanzamiento></Fecha.de.Lanzamiento>
