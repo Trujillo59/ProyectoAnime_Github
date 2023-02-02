@@ -34,12 +34,11 @@
 }
 .centrado{
     position: absolute;
-    top: 15%;
+    top: 16%;
     left: 50%;
     transform: translate(-50%, -50%);
+    color: rgb(255, 248, 248);
 }
-
-h1{color: rgb(255, 248, 248);}
 
 *{
   margin: 0;
@@ -190,10 +189,18 @@ input:-moz-placeholder {
 .h1 {
   float: left;
   margin: 25px;
-  color: #333;
+  color: rgb(0, 0, 0);
   font-family: 'Helvetica', sans-serif;
   font-size: 45px;
   font-weight: bold;
   line-height: 45px;
   text-align: center;
+}
+
+#palabra1{
+  color: rgb(0, 0, 0);
+  font-family: 'Helvetica', sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+  line-height: 15px;
 }
