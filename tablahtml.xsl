@@ -16,6 +16,11 @@
               <th>Duracion</th>
               <th>Descripcion</th>
             </tr>
+            <xsl:for-each select="Alumno">
+                <tr>
+                    <td></td>
+                </tr>
+            </xsl:for-each>
           </table>
       </body>
     </html>
