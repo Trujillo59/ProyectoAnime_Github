@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xsl:transform xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="2.0">
+<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0">
     <xsl:output method="html" doctype-public="XSLT-compat" omit-xml-declaration="yes" encoding="UTF-8" indent="yes"/>
     <xsl:template match="/">
         <html>
+            <head>
+                <title>Tabla Animes</title>
+            </head>
             <body>
                 <h2>Lista de Animes</h2>
-                <table border="1">
-                    <tr>
+                <table border="2" style="background: coral;">
+                    <tr style="background: orange;">
                         <th>Título</th>
                         <th>Autor</th>
                         <th>Género</th>
@@ -31,4 +34,4 @@
             </body>
         </html>
     </xsl:template>
-</xsl:transform>
+</xsl:stylesheet>
