@@ -1,0 +1,14 @@
+<!ELEMENT Biblioteca.Anime (Anime1, Anime2, Anime3, Anime4, Anime5)>
+<!ELEMENT Anime1 (Titulo, Autor, Genero, Fecha.de.Lanzamiento, Duracion, Descripcion)>
+<!ELEMENT Titulo (#PCDATA)>
+<!ELEMENT Autor (#PCDATA)>
+<!ELEMENT Genero (#PCDATA)>
+<!ELEMENT Fecha.de.Lanzamiento (#PCDATA)>
+<!ELEMENT Duracion (Temporadas, Capitulos)>
+<!ELEMENT Temporadas (#PCDATA)>
+<!ELEMENT Capitulos (#PCDATA)>
+<!ELEMENT Descripcion (#PCDATA)>
+<!ELEMENT Anime2 (Titulo, Autor, Genero, Fecha.de.Lanzamiento, Duracion, Descripcion)>
+<!ELEMENT Anime3 (Titulo, Autor, Genero, Fecha.de.Lanzamiento, Duracion, Descripcion)>
+<!ELEMENT Anime4 (Titulo, Autor, Genero, Fecha.de.Lanzamiento, Duracion, Descripcion)>
+<!ELEMENT Anime5 (Titulo, Autor, Genero, Fecha.de.Lanzamiento, Duracion, Descripcion)>

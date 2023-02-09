@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="carta1.xsl"?>
+
+<carta tipo="desayunos">
+    <desayuno>
+        <nombre>Smoothie de fruta</nombre>
+        <precio>4.00</precio>
+        <descripcion>Fresa, plátano y mango.</descripcion>
+        <calorias>250</calorias>
+    </desayuno>
+    <desayuno>
+        <nombre>Gofres Belgas con fresas</nombre>
+        <precio>7.95</precio>
+        <descripcion>Gofres cubiertos de fresas y nata.</descripcion>
+        <calorias>900</calorias>
+    </desayuno>
+    <desayuno>
+        <nombre>Huevos revueltos con Tostada.</nombre>
+        <precio>6.95</precio>
+        <descripcion>Huevos revueltos con champiñones...</descripcion>
+        <calorias>150</calorias>
+    </desayuno>
+    <desayuno>
+        <nombre>Tostada francesa</nombre>
+        <precio>4.50</precio>
+        <descripcion>Dos rebanadas de nuestro pan francés.</descripcion>
+        <calorias>600</calorias>
+    </desayuno>
+    <desayuno>
+        <nombre>Tostón con salmón</nombre>
+        <precio>6.95</precio>
+        <descripcion>Pan tostado, palta, salmón fresco,
+            laminado y salsa acevichada.
+        </descripcion>
+        <calorias>350</calorias>
+    </desayuno>
+
+</carta>
