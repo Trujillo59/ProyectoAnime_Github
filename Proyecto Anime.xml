@@ -3,7 +3,7 @@
     xsi:noNamespaceSchemaLocation="Proyecto Anime_XSD.xsd">
     <?xml-stylesheet type="text/xsl" href="xslAnime.xsl"?>
 
-    <Anime1>
+    <Anime>
         <Titulo>One Piece</Titulo>
         <Autor>	Eiichirō Oda</Autor>
         <Genero>Acción, Aventura, Fantasía, Comedia</Genero>
@@ -21,9 +21,9 @@
             causando grandes problemas al Gobierno Mundial. Monkey D. Luffy se convierte en uno de ellos, deseando ser el próximo 
             Rey de los Piratas y se dispone a reunir compañeros de tripulación y comenzar sus aventuras.
         </Descripcion>
-    </Anime1>
+    </Anime>
 
-    <Anime2>
+    <Anime>
         <Titulo>Attack on Titan</Titulo>
         <Autor>Hajime Isayama</Autor>
         <Genero>Acción, Aventura, Drama, Fantasia</Genero>
@@ -39,9 +39,9 @@
             Ahora esa paz está a punto de verse interrumpida por una cadena de acontecimientos que llevará a desvelar qué son los 
             Titanes y cómo aparecieron.
         </Descripcion>
-    </Anime2>
+    </Anime>
 
-    <Anime3>
+    <Anime>
         <Titulo>Dragon Ball</Titulo>
         <Autor>	Akira Toriyama</Autor>
         <Genero>Acción, aventuras, fantasía</Genero>
@@ -61,9 +61,9 @@
             Desde el principio, Gokuh y sus amigos, deberán enfrentarse continuamente a seres poderosos cada vez más fuertes con malas intenciones, 
             para proteger la humanidad y a los indefensos en general.
         </Descripcion>
-    </Anime3>
+    </Anime>
 
-    <Anime4>
+    <Anime>
         <Titulo>One-Punch Man</Titulo>
         <Autor>One</Autor>
         <Genero>Acción, Comedia, Ciencia ficción</Genero>
@@ -84,9 +84,9 @@
             en la falta de reconocimientos por la asociación de héroes sin tener idea que es más fuerte que todos. Solo un pequeño número de individuos conocen 
             su increíble talento y humildad hacia los demás.
         </Descripcion>
-    </Anime4>
+    </Anime>
 
-    <Anime5>
+    <Anime>
         <Titulo>Naruto</Titulo>
         <Autor>Masashi Kishimoto</Autor>
         <Genero>Acción, Aventura, Comedia, Fantasía, Artes marciales</Genero>
@@ -121,6 +121,6 @@
             de Itachi, Sasuke se ha unido a Akatsuki y desea destruir a Konoha. Actualmente el mundo shinobi está en guerra con el líder de Akatsuki, Tobi, y Naruto junto con B son 
             los únicos que pueden terminar con la guerra.
         </Descripcion>
-    </Anime5>
+    </Anime>
     
 </Biblioteca.Anime>
