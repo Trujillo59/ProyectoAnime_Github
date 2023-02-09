@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <Biblioteca.Anime xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="Proyecto Anime_XSD.xsd">
-    <?xml-stylesheet type="text/xsl" href="file:///C:/Users/Usuario/Desktop/Proyecto%20Anime/ProyectoAnime_Github/Animetext2.xsl"?>
+    <?xml-stylesheet type="text/xsl" href="file:///C:/Users/Usuario/Documents/GitHub/ProyectoAnime_Github/OnePiece.xsl"?>
   <Anime>
         <Titulo>One Piece</Titulo>
         <Autor>	Eiichirō Oda</Autor>
