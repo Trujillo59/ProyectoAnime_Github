@@ -50,18 +50,6 @@ header{
  background-color: #F9F8FC;
 }
 
-#logo{
- margin: auto;
- height: 250px;
- width: 320px;
- text-align: center;
-}
-
-#logo h1{
-  font-family:'Courier New';
-  font-size: 58px;
-}
-
 nav{
 height: 80px;
 background-color:#000000;
@@ -85,107 +73,13 @@ nav ul li a {
   text-decoration: none;
   font-size: 20px;
   padding: 20px;
+  font-family:'Franklin Gothic Medium';
 }
 
 nav ul li a:hover{
 background-color: #7c9fd4;
 }
 
-@import "compass/css3";
-
-.flexsearch--wrapper {
-	height: auto;
-	width: auto;
-	max-width: 80%;
-	overflow: hidden;
-	background: transparent;
-	margin: 0;
-	position: static;
-}
-	
-.flexsearch--form {
-	overflow: hidden;
-	position: relative;
-}
-	
-.flexsearch--input-wrapper {
-	padding: 0 66px 0 0; /* Right padding for submit button width */
-	overflow: hidden;
-}
-
-.flexsearch--input {
-  width: 100%;
-}
-
-/***********************
- * Configurable Styles *
- ***********************/
-.flexsearch {
-  padding: 0 30px 0 200px; /* Padding for other horizontal elements */
-}
-
-.flexsearch--input {
-  -webkit-box-sizing: content-box;
-	-moz-box-sizing: content-box;
-	box-sizing: content-box;
- 	height: 35px;
-  padding: 0 40px 0 8px;
-	border-color: #888;
-  border-radius: 35px; /* (height/2) + border-width */
-  border-style: solid;
-	border-width: 3px;
-  margin-top: 11px;
-  color: #333;
-  font-family: 'Helvetica', sans-serif;
-	font-size: 30px;
-	-webkit-appearance: none;
-	-moz-appearance: none;
-}
-	
-.flexsearch--submit {
-  position: absolute;
-	right: 0;
-	top: 0;
-	display: block;
-	width: 70px;
-	height: 40px;
-  padding: 0;
-  border: none;
-	margin-top: 14px; /* margin-top + border-width */
-  margin-right: 5px; /* border-width */
-	background: transparent;
-  color: #888;
-  font-family: 'Helvetica', sans-serif;
-  font-size: 30px;
-  line-height: 40px;
-}
-
-.flexsearch--input:focus {
-  outline: none;
-  border-color: #333;
-}
-
-.flexsearch--input:focus.flexsearch--submit {
- 	color: #333; 
-}
-
-.flexsearch--submit:hover {
-  color: #333;
-  cursor: pointer;
-}
-
-::-webkit-input-placeholder {
-	color: #888;  
-}
-
-input:-moz-placeholder {
-  color: #888
-}
-
-
-/****************
- * Pretify demo *
- ****************/
 .h1 {
   float: left;
   margin: 25px;
@@ -205,28 +99,7 @@ input:-moz-placeholder {
   line-height: 15px;
 }
 
-.boton-personalizado{
-  text-decoration: none;
-  font-weight: 600;
-  font-size: 15px;
-  color: #000000;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  padding-left: 20px;
-  padding-right: 20px;
-  background-color: rgb(218, 15, 15);
-  border-radius: 50%;
-  margin-left: 785px;
-  margin-right: px;
-  transition: all 0.2s;
-}
-
-.boton-personalizado:active{
-  transform: scale(1.1);
-  cursor:pointer;
-}
-
-.btn{
+.boton_pers{
   
   padding-top: 20px;
   padding-bottom: 50px;
@@ -238,10 +111,10 @@ input:-moz-placeholder {
   position: relative;
   border-radius: 50%;
   overflow: hidden;
-  margin-left: 835px;
+  margin-left: 790px;
 }
 
-.btn::before{
+.boton_pers::before{
   content:'Aquí encontraras algunas de las características';
   position: absolute;
   top: 50%;
@@ -257,7 +130,7 @@ input:-moz-placeholder {
 
 }
 
-.btn::after{
+.boton_pers::after{
   content:'Pulse Aquí';
   position: absolute;
   top: 50%;
@@ -273,13 +146,12 @@ input:-moz-placeholder {
   opacity: 0;
 }
 
-.btn:hover::before{
+.boton_pers:hover::before{
   transform: translate(-50%, -50%) scale(3);
   opacity: 0;
 }
 
-.btn:hover::after{
+.boton_pers:hover::after{
   transform: translate(-50%, -50%) scale(1);
   opacity: 1;
-
 }
